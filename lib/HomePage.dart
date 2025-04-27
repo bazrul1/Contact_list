@@ -1,4 +1,4 @@
-import 'package:contact_list/contactlist.dart';
+import 'package:contact_list/Contact%20veiw.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -195,7 +195,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => Contactlist(user: users[index]),
+                        builder: (context) => ContactVeiw(user: users[index]),
                       ),
                     );
                   },
